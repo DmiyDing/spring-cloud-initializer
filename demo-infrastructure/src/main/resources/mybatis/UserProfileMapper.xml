@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.repository.mapper.UserProfileMapper">
+    <sql id="ALL_COLUMNS">
+        id,
+        user_id,
+        user_name,
+        gmt_create,
+        gmt_modified,
+        is_deleted
+    </sql>
+
+    <sql id="COMMON_SELECT">
+        SELECT
+        <include refid="ALL_COLUMNS"/>
+        FROM user_profile
+    </sql>
+
+    <select id="getByUserId" resultType="com.example.repository.model.UserProfileDO">
+        SELECT * FROM user_profile
+        WHERE user_id = #{userId} and IS_DELETED = 0 LIMIT 1
+    </select>
+
+</mapper>

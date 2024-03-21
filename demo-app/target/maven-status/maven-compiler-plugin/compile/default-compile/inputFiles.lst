@@ -1,0 +1,7 @@
+/Users/dingmingyang/Code/github/public/SpringCloudInitializer/demo-app/src/main/java/com/example/utils/mq/AliyunRocketMqConfig.java
+/Users/dingmingyang/Code/github/public/SpringCloudInitializer/demo-app/src/main/java/com/example/mq/enums/MqTagEnum.java
+/Users/dingmingyang/Code/github/public/SpringCloudInitializer/demo-app/src/main/java/com/example/query/UserProfileGetQryExe.java
+/Users/dingmingyang/Code/github/public/SpringCloudInitializer/demo-app/src/main/java/com/example/utils/IdempotentUtil.java
+/Users/dingmingyang/Code/github/public/SpringCloudInitializer/demo-app/src/main/java/com/example/utils/mq/AliRocketMqBaseConsumer.java
+/Users/dingmingyang/Code/github/public/SpringCloudInitializer/demo-app/src/main/java/com/example/utils/mq/AliRocketMqProducer.java
+/Users/dingmingyang/Code/github/public/SpringCloudInitializer/demo-app/src/main/java/com/example/mq/DemoConsumer.java

@@ -1,0 +1,24 @@
+server:
+  port: 10001
+  servlet:
+    context-path: /scm-admin
+
+spring:
+  profiles:
+    active: dev
+  application:
+    name: scm-admin
+  main:
+    allow-bean-definition-overriding: true
+
+# 使用okhttp作为feign请求工具，默认为HttpURLConnection
+feign:
+  httpclient:
+    enabled: true
+  okhttp:
+    enabled: false
+
+#mybatis-plus:
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+

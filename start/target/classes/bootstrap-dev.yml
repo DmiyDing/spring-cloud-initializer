@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        file-extension: yml
+        server-addr: nacos.zyctd.tech
+        namespace: 898af332-1b84-4437-82ac-a11ad2d10eb1
+        group: ERP

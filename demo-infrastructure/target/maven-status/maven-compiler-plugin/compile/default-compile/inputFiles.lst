@@ -1,0 +1,14 @@
+/Users/dingmingyang/Code/github/public/SpringCloudInitializer/demo-infrastructure/src/main/java/com/example/repository/model/BaseDO.java
+/Users/dingmingyang/Code/github/public/SpringCloudInitializer/demo-infrastructure/src/main/java/com/example/repository/mapper/UserProfileMapper.java
+/Users/dingmingyang/Code/github/public/SpringCloudInitializer/demo-infrastructure/src/main/java/com/example/utils/OkHttpConfig.java
+/Users/dingmingyang/Code/github/public/SpringCloudInitializer/demo-infrastructure/src/main/java/com/example/common/nacos/NacosConfigUtils.java
+/Users/dingmingyang/Code/github/public/SpringCloudInitializer/demo-infrastructure/src/main/java/com/example/common/BizCode.java
+/Users/dingmingyang/Code/github/public/SpringCloudInitializer/demo-infrastructure/src/main/java/com/example/common/exception/ErrorCode.java
+/Users/dingmingyang/Code/github/public/SpringCloudInitializer/demo-infrastructure/src/main/java/com/example/common/nacos/NacosConfigKeys.java
+/Users/dingmingyang/Code/github/public/SpringCloudInitializer/demo-infrastructure/src/main/java/com/example/repository/UserProfileRepo.java
+/Users/dingmingyang/Code/github/public/SpringCloudInitializer/demo-infrastructure/src/main/java/com/example/common/exception/ErrorCodeI.java
+/Users/dingmingyang/Code/github/public/SpringCloudInitializer/demo-infrastructure/src/main/java/com/example/repository/model/UserProfileDO.java
+/Users/dingmingyang/Code/github/public/SpringCloudInitializer/demo-infrastructure/src/main/java/com/example/utils/BeanCopyUtils.java
+/Users/dingmingyang/Code/github/public/SpringCloudInitializer/demo-infrastructure/src/main/java/com/example/utils/CodeGenerator.java
+/Users/dingmingyang/Code/github/public/SpringCloudInitializer/demo-infrastructure/src/main/java/com/example/repository/impl/UserProfileRepoImpl.java
+/Users/dingmingyang/Code/github/public/SpringCloudInitializer/demo-infrastructure/src/main/java/com/example/utils/OkhttpUtils.java

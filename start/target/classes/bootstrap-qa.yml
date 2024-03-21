@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        file-extension: yml
+        server-addr: nacos.ding.tech
+        namespace: 36b7e51c-24b8-4fab-b667-a4a85ebc14e9
+        group: PUBLIC
