@@ -1,8 +1,0 @@
- spring:
-  cloud:
-    nacos:
-      config:
-        file-extension: yml
-        server-addr: nacos01.ding.com.cn:8848,nacos02.ding.com.cn:8848
-        namespace: 85a696ce-9fa7-4f44-926e-a4ef0a95797f
-        group: PUBLIC

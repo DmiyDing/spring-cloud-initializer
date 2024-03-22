@@ -1,7 +1,0 @@
-com/example/mq/enums/MqTagEnum.class
-com/example/utils/mq/AliRocketMqBaseConsumer.class
-com/example/mq/DemoConsumer.class
-com/example/utils/mq/AliRocketMqProducer.class
-com/example/utils/mq/AliyunRocketMqConfig.class
-com/example/query/UserProfileGetQryExe.class
-com/example/utils/IdempotentUtil.class
