@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.GetMapping;
  * @author dingmingyang
  */
 @FeignClient(value = "demo", path = "/user")
-public interface UserProfileController {
+public interface UserProfileFeignApi {
 
     @GetMapping({"/get"})
     ApiResponse<UserProfileVO> getUserProfileBy(UserProfileGetQuery qry);
