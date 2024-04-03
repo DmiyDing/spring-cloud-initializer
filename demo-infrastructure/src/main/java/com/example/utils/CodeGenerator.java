@@ -8,6 +8,8 @@ import com.baomidou.mybatisplus.generator.config.rules.NamingStrategy;
 import com.baomidou.mybatisplus.generator.engine.FreemarkerTemplateEngine;
 
 import java.io.File;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * mybatis-plus代码生成器
@@ -25,7 +27,8 @@ public class CodeGenerator {
         // user.dir在根目录层
         String projectPath = System.getProperty("user.dir");
         String modulePath = "/demo-infrastructure/";
-        gc.setOutputDir(projectPath + File.separator + modulePath + "src/main/java/");
+        String outputDir = projectPath + File.separator + modulePath + "src/main/java/";
+        gc.setOutputDir(outputDir);
         gc.setAuthor("ding");
         gc.setOpen(false);
         //实体属性 Swagger2 注解
@@ -50,10 +53,15 @@ public class CodeGenerator {
         String packagePath = "com.example.repository";
         pc.setParent(packagePath);
         //路径设置
-        pc.setEntity("model");
-        pc.setMapper("mapper");
-        pc.setService("service");
-        pc.setServiceImpl("service.impl");
+        Map<String, String> pathMap = new HashMap<>(8);
+        String basePath = projectPath + File.separator + modulePath + "/src/main";
+        String repositoryDir = outputDir + "com/example/repository/";
+        pathMap.put(ConstVal.XML_PATH, basePath + "/resources/mapper");
+        pathMap.put(ConstVal.MAPPER_PATH, repositoryDir + "mapper");
+        pathMap.put(ConstVal.ENTITY_PATH, repositoryDir + "model");
+        pathMap.put(ConstVal.SERVICE_PATH, repositoryDir + "service");
+        pathMap.put(ConstVal.SERVICE_IMPL_PATH, repositoryDir + "service/impl");
+        pc.setPathInfo(pathMap);
         mpg.setPackageInfo(pc);
 
         // 配置模板
